@@ -48,7 +48,7 @@ function TfrmLogin.realizaLogin(): Boolean;
 begin
   if DmPrincipal.cdsLocUsuario.Locate('LOGIN', Trim(editUser.Text), []) then
   begin
-    if DmPrincipal.cdsLocUsuario.Locate('CPF', Trim(editSenha.Text), []) then
+    if DmPrincipal.cdsLocUsuarioCPF.AsString = Trim(editSenha.Text) then
     begin
       Result := True;
     end

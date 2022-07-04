@@ -20,6 +20,5 @@ begin
   Application.CreateForm(TDmPrincipal, DmPrincipal);
   Application.CreateForm(TdmCadProduto, dmCadProduto);
   Application.Run;
-  //ReportMemoryLeaksOnShutdown := True;
 
 end.

@@ -22,16 +22,19 @@ type
     btnCadastraAlteraProduto: TButton;
     dsProduto: TDataSource;
     CadastrodeUsuarios1: TMenuItem;
+    Sair1: TMenuItem;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormShow(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
     procedure btnCadastraAlteraProdutoClick(Sender: TObject);
     procedure CadastrodeUsuarios1Click(Sender: TObject);
+    procedure Sair1Click(Sender: TObject);
+    procedure DBGrid1DblClick(Sender: TObject);
+
   private
     { Private declarations }
   public
     { Public declarations }
-    user, porta, ip, banco, senha: String;
   end;
 
 var
@@ -45,12 +48,17 @@ uses untDmPrincipal, untLogin, untCadProduto, untDmCadProduto, untCadUsuario;
 
 procedure TfrmPrincipal.FormShow(Sender: TObject);
 begin
-  if frmLogin = nil then
-    frmLogin := TfrmLogin.Create(nil);
 
- // frmLogin.ShowModal;
+  try
 
-  
+   if frmLogin = nil then
+      frmLogin := TfrmLogin.Create(nil);
+
+    frmLogin.ShowModal;
+
+  finally
+    FreeAndNil(frmLogin);
+  end;
 
   StatusBar1.Panels[0].Text := DmPrincipal.cdsLocUsuarioNOME_COMPLETO.AsString +
     '     Seja Bem Vindo!!!';
@@ -77,12 +85,21 @@ begin
   frmCadUsuario.ShowModal
 end;
 
+procedure TfrmPrincipal.DBGrid1DblClick(Sender: TObject);
+begin
+  btnCadastraAlteraProdutoClick(Sender);
+end;
+
 procedure TfrmPrincipal.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
-  FreeAndNil(dmCadProduto);
   DmPrincipal.FDConnection1.Close;
-  DmPrincipal := Nil;
-  Action := caFree;
+  FreeAndNil(DmPrincipal);
+  FreeAndNil(dmCadProduto);
+end;
+
+procedure TfrmPrincipal.Sair1Click(Sender: TObject);
+begin
+  Application.Terminate;
 end;
 
 end.

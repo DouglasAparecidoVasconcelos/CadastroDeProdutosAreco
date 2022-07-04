@@ -6,13 +6,8 @@ object DmPrincipal: TDmPrincipal
   object FDConnection1: TFDConnection
     ConnectionName = 'mssqlconnection'
     Params.Strings = (
-      'Address=localhost\SQLEXPRESS'
-      'Database=CADASTRO_ARECO'
-      'Password=masterkey'
-      'User_Name=teste'
       'OSAuthent=No'
       'DriverID=MSSQL')
-    Connected = True
     LoginPrompt = False
     Left = 32
     Top = 8

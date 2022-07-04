@@ -270,6 +270,7 @@ object frmPrincipal: TfrmPrincipal
     Top = 0
     Width = 722
     Height = 328
+    Hint = 'Duplo clique para alterar o registro.'
     Align = alClient
     DataSource = dsProduto
     Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
@@ -279,6 +280,7 @@ object frmPrincipal: TfrmPrincipal
     TitleFont.Height = -11
     TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
+    OnDblClick = DBGrid1DblClick
     Columns = <
       item
         Expanded = False
@@ -350,6 +352,10 @@ object frmPrincipal: TfrmPrincipal
     object CadastrodeUsuarios1: TMenuItem
       Caption = 'Cadastro de Usuarios'
       OnClick = CadastrodeUsuarios1Click
+    end
+    object Sair1: TMenuItem
+      Caption = '&Sair'
+      OnClick = Sair1Click
     end
   end
   object Timer1: TTimer

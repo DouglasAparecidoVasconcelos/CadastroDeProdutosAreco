@@ -22,9 +22,6 @@ object frmCadUsuario: TfrmCadUsuario
     Height = 323
     Align = alClient
     TabOrder = 0
-    ExplicitTop = -7
-    ExplicitWidth = 495
-    ExplicitHeight = 330
     object DBNavigator1: TDBNavigator
       Left = 2
       Top = 15
@@ -48,7 +45,6 @@ object frmCadUsuario: TfrmCadUsuario
       ParentShowHint = False
       ShowHint = True
       TabOrder = 0
-      ExplicitWidth = 491
     end
     object GroupBox2: TGroupBox
       Left = 2
@@ -158,6 +154,20 @@ object frmCadUsuario: TfrmCadUsuario
       TitleFont.Height = -11
       TitleFont.Name = 'Tahoma'
       TitleFont.Style = []
+      Columns = <
+        item
+          Expanded = False
+          FieldName = 'ID_USUARIO'
+          Title.Caption = 'C'#243'd.'
+          Visible = True
+        end
+        item
+          Expanded = False
+          FieldName = 'NOME_COMPLETO'
+          Title.Caption = 'Nome Completo'
+          Width = 1000
+          Visible = True
+        end>
     end
   end
   object dsUsuario: TDataSource

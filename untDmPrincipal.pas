@@ -32,6 +32,8 @@ type
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
+    procedure criaOuLeArquivoConfig;
+    procedure realizaConexao;
   public
     { Public declarations }
   end;
@@ -47,20 +49,55 @@ uses
 {%CLASSGROUP 'Vcl.Controls.TControl'}
 {$R *.dfm}
 
+procedure TDmPrincipal.criaOuLeArquivoConfig;
+  var
+    IniConfiguracao : TIniFile;
+begin
+
+  IniConfiguracao := TIniFile.Create(ExtractFileDir(Application.ExeName) + '\Config.ini');
+
+  try
+
+    if not FileExists(ExtractFileDir(Application.ExeName) + '\Config.ini') then
+    begin
+      IniConfiguracao.WriteString('BD', 'BANCO', FDConnection1.Params.Values['Database']);
+      IniConfiguracao.WriteString('BD', 'USUARIO', FDConnection1.Params.Values['User_name']);
+      IniConfiguracao.WriteString('BD', 'SENHA', FDConnection1.Params.Values['Password']);
+      IniConfiguracao.WriteString('BD', 'IP', FDConnection1.Params.Values['Address']);
+    end
+    else
+    begin
+      FDConnection1.Params.Values['Database']  := IniConfiguracao.ReadString('BD','BANCO','Erro ao ler o nome do banco de dados.');
+      FDConnection1.Params.Values['User_name'] := IniConfiguracao.ReadString('BD','USUARIO','Erro ao ler o usuário do banco de dados.');
+      FDConnection1.Params.Values['Password']  := IniConfiguracao.ReadString('BD','SENHA','Erro ao ler a senha do banco de dados.');
+      FDConnection1.Params.Values['Address']   := IniConfiguracao.ReadString('BD','IP','Erro ao ler o IP do banco de dados.');
+    end;
+
+  finally
+    IniConfiguracao.Free;
+  end;
+end;
+
 procedure TDmPrincipal.DataModuleCreate(Sender: TObject);
+begin
+  realizaConexao;
+end;
+
+procedure TDmPrincipal.realizaConexao;
 begin
 
   FDConnection1.Connected := False;
 
-  // FDConnection1.DriverName := 'MSSQL';
-  // FDConnection1.Params.Values['DriverID'] := 'MSSQL';
-  FDConnection1.Params.Values['HostName'] := 'localhost\SQLEXPRESS';
-  FDConnection1.Params.Values['Database'] := 'DBDELPHI-PROTOTIPO';
-
   try
+
+    criaOuLeArquivoConfig;
+
     FDConnection1.Connected := True;
+
   except
+
     ShowMessage('Erro ao conectar no banco de dados!');
+    Application.Terminate;
   end;
 end;
 
