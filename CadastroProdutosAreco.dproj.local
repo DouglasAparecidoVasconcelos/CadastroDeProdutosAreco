@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/01/28 22:48:17.000.634,=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/28 22:49:27.000.997,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\PROJECT1\untPrincipal.pas</Transaction>
+    <Transaction>2020/01/28 22:49:27.000.997,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\PROJECT1\untPrincipal.dfm</Transaction>
+    <Transaction>2020/01/28 22:49:49.000.688,=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/28 22:50:11.000.907,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\PROJECT1\untDmPrincipal.pas</Transaction>
+    <Transaction>2020/01/28 22:50:11.000.907,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\PROJECT1\untDmPrincipal.dfm</Transaction>
+    <Transaction>2020/01/29 20:31:04.000.446,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\PROJECT1\Project1.dproj</Transaction>
+    <Transaction>2020/02/02 00:33:17.000.499,=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\PROJECT1\Unit1.pas</Transaction>
+    <Transaction>2020/02/02 11:05:39.000.000,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\PROJECT1\GestaoInvestimentos.dproj=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\PROJECT1\Project1.dproj</Transaction>
+    <Transaction>2020/02/07 22:28:26.000.708,=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\Unit1.pas</Transaction>
+    <Transaction>2020/02/07 22:30:18.000.041,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\Unit1.dfm=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\untCadFluxoFinanceiro.dfm</Transaction>
+    <Transaction>2020/02/07 22:30:18.000.041,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\Unit1.pas=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\untCadFluxoFinanceiro.pas</Transaction>
+    <Transaction>2020/02/07 22:31:20.000.250,=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\Unit1.pas</Transaction>
+    <Transaction>2020/02/07 22:31:46.000.862,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\Unit1.dfm=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\untDmCadFluxoFinanceiro.dfm</Transaction>
+    <Transaction>2020/02/07 22:31:46.000.862,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\Unit1.pas=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\untDmCadFluxoFinanceiro.pas</Transaction>
+    <Transaction>2020/02/08 03:23:08.000.584,=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\Unit1.pas</Transaction>
+    <Transaction>2020/02/08 14:50:29.000.347,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\Unit1.pas=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\untLogin.pas</Transaction>
+    <Transaction>2020/02/08 14:50:29.000.347,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\Unit1.dfm=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\untLogin.dfm</Transaction>
+    <Transaction>2020/02/13 22:10:57.000.694,=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\untLib.pas</Transaction>
+    <Transaction>2020/02/14 19:09:59.000.086,=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\Unit1.pas</Transaction>
+    <Transaction>2020/02/14 19:10:31.000.449,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\untCadUsuario.pas=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\Unit1.pas</Transaction>
+    <Transaction>2020/02/14 19:10:31.000.449,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\untCadUsuario.dfm=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\SistemaGestaoInvestimentos\Unit1.dfm</Transaction>
+    <Transaction>2022/07/04 11:14:37.626,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\CadastroProdutosAreco.dproj=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\GestaoInvestimentos.dproj</Transaction>
+    <Transaction>2022/07/04 11:23:10.321,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\untCadFluxoFinanceiro.pas=</Transaction>
+    <Transaction>2022/07/04 11:23:25.168,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\untDmCadFluxoFinanceiro.pas=</Transaction>
+    <Transaction>2022/07/04 11:29:40.619,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\untLib.pas=</Transaction>
+    <Transaction>2022/07/04 11:35:06.537,=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\Unit1.pas</Transaction>
+    <Transaction>2022/07/04 11:35:32.291,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\untCadProduto.dfm=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\Unit1.dfm</Transaction>
+    <Transaction>2022/07/04 11:35:32.291,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\untCadProduto.pas=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\Unit1.pas</Transaction>
+    <Transaction>2022/07/04 11:51:19.286,=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\Unit1.pas</Transaction>
+    <Transaction>2022/07/04 11:51:52.278,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\untDmCadProduto.pas=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\Unit1.pas</Transaction>
+    <Transaction>2022/07/04 11:51:52.278,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\untDmCadProduto.dfm=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\Unit1.dfm</Transaction>
+    <Transaction>2022/07/04 13:50:52.009,=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\Unit1.pas</Transaction>
+    <Transaction>2022/07/04 13:51:11.597,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\untDmcadUsuario.pas=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\Unit1.pas</Transaction>
+    <Transaction>2022/07/04 13:51:11.597,C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\untDmcadUsuario.dfm=C:\Users\Douglas Vasconcelos\Documents\Embarcadero\Studio\Projects\CadastroProdutosAreco\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

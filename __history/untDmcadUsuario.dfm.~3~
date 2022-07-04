@@ -1,0 +1,5 @@
+object dmCadUsuario: TdmCadUsuario
+  OldCreateOrder = False
+  Height = 311
+  Width = 439
+end

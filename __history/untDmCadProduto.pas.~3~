@@ -1,0 +1,28 @@
+unit untDmCadProduto;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TdmCadProduto = class(TDataModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dmCadProduto: TdmCadProduto;
+
+implementation
+
+uses
+  untDmPrincipal;
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

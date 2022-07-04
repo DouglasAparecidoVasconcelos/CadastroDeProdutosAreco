@@ -1,0 +1,10 @@
+object dmCadProduto: TdmCadProduto
+  OldCreateOrder = False
+  Height = 385
+  Width = 470
+  object tbCadProduto: TFDTable
+    Connection = DmPrincipal.FDConnection1
+    Left = 152
+    Top = 40
+  end
+end

@@ -1,0 +1,5 @@
+object dmCadProduto: TdmCadProduto
+  OldCreateOrder = False
+  Height = 385
+  Width = 470
+end
